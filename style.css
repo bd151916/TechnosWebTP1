@@ -1,0 +1,109 @@
+html, body {
+   
+    align-items: center;
+    justify-content: center;
+   
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+
+
+.profilepicture {
+  position: absolute;
+    left:25%;
+    top: 15%;
+    border-radius: 50%;
+  }
+
+
+  .name {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    position: absolute;
+    left:25%;
+    top: 50%;
+    border-radius: 50%;
+  }
+
+  .subtitle{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    position: absolute;
+    left:25%;
+    top: 60%;
+    border-radius: 50%;
+  }
+
+  .wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+
+  .button{
+    margin-top: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .bio{
+    font-size: 40px;
+    padding: 20px
+  }
+
+  a:link {
+    padding: 20px;
+    text-decoration: none;
+    font-size:30px;
+    color: #f8f8f8;
+  }
+
+  
+  .formation{
+    background-color: #1b4079;
+  }
+
+
+  .experiences{
+    background-color: #910000;
+  }
+
+  .projets{
+    background-color: #ba5c12;
+  }
+  
+  .competences{
+    background-color: #38618c;
+  }
+
+  .contact{
+    background-color: #35A7ff;
+  }
+
+  .left{
+    background-image: url("backgroundht.jpg");
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: rgb(255, 235, 217);
+  }
+
+  .right{
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
